@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript DOM</title>
+    <style>
+      body {
+        text-align: center;
+      }
+
+      .ubah-warna {
+        background-color: lightblue;
+      }
+
+      .kotak {
+        width: 25px;
+        height: 25px;
+        margin: 10px auto;
+        box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+      }
+
+      .merah {
+        background-color: red;
+      }
+
+      .hijau {
+        background-color: green;
+      }
+
+      .biru {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bermain Dengan Warna</h1>
+    <button type="button" name="tUbahWarna">Ubah Warna</button>
+
+    <p id="1">Kadar warna merah: <span>0</span></p>
+    <div class="kotak merah"></div>
+    <input type="range" name="sMerah" min="0" max="255" />
+
+    <p id="2">Kadar warna hijau: <span>0</span></p>
+    <div class="kotak hijau"></div>
+    <input type="range" name="sHijau" min="0" max="255" />
+
+    <p id="3">Kadar warna biru: <span>0</span></p>
+    <div class="kotak biru"></div>
+    <input type="range" name="sBiru" min="0" max="255" />
+
+    <script src="index.js"></script>
+  </body>
+</html>
